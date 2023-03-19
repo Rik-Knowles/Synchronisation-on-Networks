@@ -1,7 +1,6 @@
 # Synchronisation on Networks
-Finalised: The code I created for my Project III at Durham University about the synchronisation of ODEs on networks.
 
-The code I created for my Project III at Durham University about ODEs on networks. My default matplotlib style is seaborn.
+The code I created for my Project III at Durham University about the synchronisation of ODEs on networks. My default matplotlib style is seaborn.
 
 The first file is entitled 'Gossip - Solves ODEs on Networks'. This python script solves ODEs given any network, and functions f(x_i) and g(x_i, x_j). It solves them in the case where the x_i are 1-D (i.e not vectors). Mathematically, given a user specified network, the program solves the set of coupled ODEs given by: \frac{dx_i}{d t}=f(x_i)+\sum_{j=1}^{n} A_{ij} g(x_i,x_j), where i = 1,..., n; the number of nodes in the network, and A_{i j} are the elements of the adjacency matrix. We specify the specific network as well as the functions f and g that we use in the 'gossip example', seen in the corrosponding part of the essay.
 
